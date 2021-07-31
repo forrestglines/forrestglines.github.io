@@ -291,6 +291,42 @@ neglected.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Environmental Dependence of Self-regulating Black Hole Feedback in Massive Galaxies</title>
+      <link>https://forrestglines.github.io/publication/self_regulating_bh_feedback/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://forrestglines.github.io/publication/self_regulating_bh_feedback/</guid>
+      <description>&lt;p&gt;In the universe&amp;rsquo;s most massive galaxies, active galactic
+nucleus (AGN) feedback appears to limit star formation. The
+accumulation of cold gas near the central black hole fuels
+powerful AGN outbursts, keeping the ambient medium in a
+state marginally unstable to condensation and formation of
+cold gas clouds. However, the ability of that mechanism to
+self-regulate may depend on numerous environmental factors,
+including the depth of the potential well and the pressure
+of the surrounding circumgalactic medium (CGM). Here we
+present a suite of numerical simulations, with halo mass
+ranging from $2\times10^{12} M_\odot$ to $8\times10^{14} M_\odot$, exploring the
+dependence of AGN feedback on those environmental factors.
+We include the spatially extended mass and energy input
+from the massive galaxy&amp;rsquo;s old stellar population capable of
+sweeping gas out of the galaxy if the confining CGM
+pressure is sufficiently low. Our simulations show that
+this feedback mechanism is tightly self-regulating in a
+massive galaxy with a deep central potential and low CGM
+pressure, permitting only small amounts of multiphase gas
+to accumulate and allowing no star formation. In a
+similar-mass galaxy with shallower central potential and
+greater CGM pressure the feedback mechanism is more
+episodic, producing extended multiphase gas and allowing
+small rates of star formation ($\sim0.1 M_\odot \text{yr}^{−1}$). At the
+low-mass end, the mechanism becomes implausibly explosive,
+perhaps because the CGM initially has no angular momentum,
+which would have reduced the amount of condensed gas
+capable of fueling feedback.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Tests of AGN Feedback Kernels in Simulated Galaxy Clusters </title>
       <link>https://forrestglines.github.io/publication/agn_thermal/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
