@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AthenaPK | Forrest Glines</title>
+    <link>https://forrestglines.github.io/tag/athenapk/</link>
+      <atom:link href="https://forrestglines.github.io/tag/athenapk/index.xml" rel="self" type="application/rss+xml" />
+    <description>AthenaPK</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 15 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://forrestglines.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>AthenaPK</title>
+      <link>https://forrestglines.github.io/tag/athenapk/</link>
+    </image>
+    
+    <item>
+      <title>AthenaPK and Parthenon</title>
+      <link>https://forrestglines.github.io/project/athenapk_and_parthenon/</link>
+      <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://forrestglines.github.io/project/athenapk_and_parthenon/</guid>
+      <description>&lt;p&gt;AthenaPK is an in-development performance-portable conversion of Athena++ build
+on the Parthenon adaptive mesh refinement (AMR) framework using the Kokkos
+performance portability library. I am one of the main developers for AthenaPK
+and a co-developer for Parthenon. The Parthenon framework is designed to be
+massively scalable and efficient on both CPUs and GPUs, enabling
+next-generation AMR simulations on a variety of hardware architectures. Kernels
+and data are managed by Kokkos, which enables high performance on any
+architecture supported by Kokkos, including CPUs, NVIDIA and AMD GPUs, and
+future Intel GPUs. AthenaPK uses the robust solvers from Athena++ within the
+Parthenon framework to enable future exascale astrophysical simulations.&lt;/p&gt;
+&lt;p&gt;Parthenon is publicly available on &lt;a href=&#34;https://github.com/lanl/parthenon&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;AthenaPK is publicly available on &lt;a href=&#34;https://gitlab.com/theias/hpc/jmstone/athena-parthenon/athenapk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gitlab&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,2787 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.2.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Forrest Glines" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="PhD Student in Computational Astrophysics" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://forrestglines.github.io/" />
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous" media="print" onload="this.media='all'">
+
+    
+    
+    
+    
+      
+      
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.e6f7b650e2d80724e28cce23c674926c.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  
+
+  
+    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Forrest Glines" />
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_2.png" />
+
+  <link rel="canonical" href="https://forrestglines.github.io/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Forrest Glines" />
+  <meta property="og:url" content="https://forrestglines.github.io/" />
+  <meta property="og:title" content="Forrest Glines" />
+  <meta property="og:description" content="PhD Student in Computational Astrophysics" /><meta property="og:image" content="https://forrestglines.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png" />
+    <meta property="twitter:image" content="https://forrestglines.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta property="og:updated_time" content="2030-06-01T13:00:00&#43;00:00" />
+    
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://forrestglines.github.io?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "https://forrestglines.github.io"
+}
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Forrest Glines</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper   "  >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Forrest Glines</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Forrest Glines</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about" data-target="#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects" data-target="#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured" data-target="#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact" data-target="#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/uploads/Forrest_Glines_CV.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+<span class="js-widget-page d-none"></span>
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="about" class="home-section wg-about  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+
+      
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+
+      
+      
+      <img class="avatar avatar-circle" src="/authors/admin/avatar_huc68e9f0f38f689fc6024f470d7055a69_5870928_270x270_fill_lanczos_center_2.png" alt="Forrest Glines">
+      
+
+      <div class="portrait-title">
+        <h2>Forrest Glines</h2>
+        <h3>PhD Student in Computational Astrophysics</h3>
+
+        
+        <h3>
+          <a href="https://pa.msu.edu/" target="_blank" rel="noopener">
+          <span>Department of Physics and Astronomy, Michigan State University</span>
+          </a>
+        </h3>
+        
+        <h3>
+          <a href="https://cmse.msu.edu/" target="_blank" rel="noopener">
+          <span>Department of Computational Science, Mathematics and Engineering, Michigan State University</span>
+          </a>
+        </h3>
+        
+      </div>
+
+      <ul class="network-icon" aria-hidden="true">
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="/#contact"  aria-label="envelope">
+            <i class="fas fa-envelope big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://scholar.google.co.uk/citations?user=v2YpzBsAAAAJ" target="_blank" rel="noopener" aria-label="graduation-cap">
+            <i class="fas fa-graduation-cap big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://orcid.org/0000-0002-6837-8195" target="_blank" rel="noopener" aria-label="orcid">
+            <i class="fab fa-orcid big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://github.com/forrestglines" target="_blank" rel="noopener" aria-label="github">
+            <i class="fab fa-github big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://www.linkedin.com/in/forrest-glines-97884184" target="_blank" rel="noopener" aria-label="linkedin">
+            <i class="fab fa-linkedin big-icon"></i>
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+    <h1>Biography</h1>
+
+    <div class="article-style">
+      <p>I am a graduate student in Astrophysics and Computational Mathematics, Science
+and Engineering at Michigan State University and a graduate student researcher
+at Sandia National Laboratories.</p>
+<p>My research covers simulations of galaxy clusters with self-regulating AGN
+feedback, simulations of magnetohydrodynamic turbulence, numerical methods for
+magnetized Newtonian and relativistic plasmas, and performance-portable
+astrophysics codes.</p>
+<p>I am looking for post doctoral oppotrunities in astrophysics and computational
+science for 2022. Feel free to contact me via <a href="mailto:glinesfo@msu.edu">email</a>.</p>
+<p>
+  <i class="fas fa-download  pr-1 fa-fw"></i> Download my <a href="/uploads/Forrest_Glines_CV.pdf" target="_blank">curriculum vitae</a>.</p>
+
+    </div>
+
+    <div class="row">
+
+      
+
+      
+      <div class="col-md-7">
+        <div class="section-subheading">Education</div>
+        <ul class="ul-edu fa-ul mb-0">
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">PhD Candidate in Astrophysics and Computational Mathematics, Science and Engineering, 2016-present</p>
+              <p class="institution">Michigan State University</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">BSc in Physics and Mathematics with Emphasis in Applied and Computational Mathematics, 2016</p>
+              <p class="institution">Brigham Young University</p>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="projects" class="home-section wg-portfolio  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Projects</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+<div class="col-12 col-lg-8">
+
+  
+
+  
+
+    
+
+    
+    
+    
+    
+      
+    
+
+    <span class="d-none default-project-filter">*</span>
+
+    
+    
+    <div class="project-toolbar">
+      <div class="project-filters">
+        <div class="btn-toolbar">
+          <div class="btn-group flex-wrap">
+            
+              
+              
+              
+                
+              
+              <a href="#" data-filter="*" class="btn btn-primary btn-lg active">All</a>
+            
+              
+              
+              
+              <a href="#" data-filter=".js-id-Astrophysics" class="btn btn-primary btn-lg">Astrophysics</a>
+            
+              
+              
+              
+              <a href="#" data-filter=".js-id-Performance-Portability" class="btn btn-primary btn-lg">Performance-Portability</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+
+  <div class="isotope projects-container row js-layout-row project-showcase">
+
+    
+    
+      
+    
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<div class="col-lg-12 project-item isotope-item js-id-Astrophysics js-id-Active-Galactic-Nuclei js-id-Galaxy-Clusters js-id-Enzo">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-6">
+      <div class="section-subheading article-title mb-0 mt-0"><a href="/project/thermal_agn/" >AGN Feedback Heating Kernels</a></div>
+
+      
+      <div class="article-style">
+        Abstracting AGN feedback with a thermal-only heating model
+      </div>
+      
+
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+    </div>
+    <div class="col-12 col-md-6 order-first ">
+      
+      
+      
+      <a href="/project/thermal_agn/" >
+        <img src="/project/thermal_agn/featured_hue16c1ad32040cefc5bf399784ce178ab_336799_540x0_resize_lanczos_2.png" alt="AGN Feedback Heating Kernels" loading="lazy">
+      </a>
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<div class="col-lg-12 project-item isotope-item js-id-Code-Development js-id-Performance-Portability js-id-AthenaPK">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-6">
+      <div class="section-subheading article-title mb-0 mt-0"><a href="/project/athenapk_and_parthenon/" >AthenaPK and Parthenon</a></div>
+
+      
+      <div class="article-style">
+        Performance-Portable Astrophysics Simulations with Adaptive Mesh Refinement
+      </div>
+      
+
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+    </div>
+    <div class="col-12 col-md-6 order-first ">
+      
+      
+      
+      <a href="/project/athenapk_and_parthenon/" >
+        <img src="/project/athenapk_and_parthenon/featured_huc012909a0d15aa9049c71d92c50d4a1a_698631_540x0_resize_lanczos_2.png" alt="AthenaPK and Parthenon" loading="lazy">
+      </a>
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<div class="col-lg-12 project-item isotope-item js-id-Astrophysics js-id-MHD-Turbulence js-id-K-Athena">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-6">
+      <div class="section-subheading article-title mb-0 mt-0"><a href="/project/taylor_green/" >Decaying Magnetized Turbulence in the Taylor-Green Vortex</a></div>
+
+      
+      <div class="article-style">
+        Investigating the development of MHD turblence in the absence of driving forces
+      </div>
+      
+
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+    </div>
+    <div class="col-12 col-md-6 order-first ">
+      
+      
+      
+      <a href="/project/taylor_green/" >
+        <img src="/project/taylor_green/featured_hu15923b6091ff8978aef92fc4664862dd_547578_540x0_resize_lanczos_2.png" alt="Decaying Magnetized Turbulence in the Taylor-Green Vortex" loading="lazy">
+      </a>
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<div class="col-lg-12 project-item isotope-item js-id-Code-Development js-id-Performance-Portability js-id-K-Athena">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-6">
+      <div class="section-subheading article-title mb-0 mt-0"><a href="/project/kathena/" >K-Athena</a></div>
+
+      
+      <div class="article-style">
+        Performance-Portable Uniform Grid Astrophysics Code
+      </div>
+      
+
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+    </div>
+    <div class="col-12 col-md-6 order-first ">
+      
+      
+      
+      <a href="/project/kathena/" >
+        <img src="/project/kathena/featured_hua9c4d5f5e0b6839025ea1e284575d3fa_28317_540x0_resize_lanczos_2.png" alt="K-Athena" loading="lazy">
+      </a>
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<div class="col-lg-12 project-item isotope-item js-id-MHD-Turbulence">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-6">
+      <div class="section-subheading article-title mb-0 mt-0"><a href="/project/magnetic_agn/" >Magnetic Tower AGN Feedback within Magnetized Galaxy Clusters</a></div>
+
+      
+      <div class="article-style">
+        High resolutions simulations of magnetized galaxy cluster with AGN feedback
+      </div>
+      
+
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+    </div>
+    <div class="col-12 col-md-6 order-first ">
+      
+      
+      
+      <a href="/project/magnetic_agn/" >
+        <img src="/project/magnetic_agn/featured_hue2792fba753239f2734bfe6da1440ffc_454497_540x0_resize_lanczos_2.png" alt="Magnetic Tower AGN Feedback within Magnetized Galaxy Clusters" loading="lazy">
+      </a>
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+  </div>
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="featured" class="home-section wg-featured  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Publications</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<div class="col-12 col-lg-8">
+
+  
+
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      Forrest Glines</span>, <span >
+      Philipp Grete</span>, <span >
+      Brian W. O&#39;Shea</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    April 2021
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      In <em>PhysRevE</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/publication/taylor_green/">Magnetized decaying turbulence in the weakly compressible Taylor-Green vortex </a>
+  </div>
+
+  
+  <a href="/publication/taylor_green/" class="summary-link">
+    <div class="article-style">
+      <p>Magnetohydrodynamic (MHD) turbulence affects both terrestrial and astrophysical plasmas. The properties of magnetized turbulence must be better understood to more accurately characterize these systems. This work presents ideal MHD simulations of the compressible Taylor-Green vortex under a range of initial subsonic Mach numbers and magnetic field strengths.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/taylor_green/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1103/PhysRevE.103.043203%20" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+  </div>
+  
+
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      Forrest Glines</span>, <span >
+      Brian W. O&#39;Shea</span>, <span >
+      G. Mark Voit</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    September 2020
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      In <em>ApJ</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/publication/agn_thermal/">Tests of AGN Feedback Kernels in Simulated Galaxy Clusters </a>
+  </div>
+
+  
+  <a href="/publication/agn_thermal/" class="summary-link">
+    <div class="article-style">
+      <p>In cool-core galaxy clusters with central cooling times much shorter than a Hubble time, condensation of the ambient central gas is regulated by a heating mechanism, probably an active galactic nucleus.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/agn_thermal/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.3847/1538-4357/abb08c" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+  </div>
+  
+
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      Philipp Grete</span>, <span >
+      Forrest Glines</span>, <span >
+      Brian W. O&#39;Shea</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    July 2020
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      In <em>TPDS</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/publication/kathena/"> K-Athena: a performance portable structured grid finite volume magnetohydrodynamics code </a>
+  </div>
+
+  
+  <a href="/publication/kathena/" class="summary-link">
+    <div class="article-style">
+      <p>Large scale simulations are a key pillar of modern research and require ever-increasing computational resources. Different novel manycore architectures have emerged in recent years on the way towards the exascale era.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/kathena/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/TPDS.2020.3010016" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+  </div>
+  
+
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      Forrest Glines</span>, <span >
+      Matthew Anderson</span>, <span >
+      David Neilsen</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    September 2015
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      In <em>CLUSTER</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/publication/scalable_shock_capturing/">Scalable Relativistic High-Resolution Shock-Capturing for Heterogeneous Computing</a>
+  </div>
+
+  
+  <a href="/publication/scalable_shock_capturing/" class="summary-link">
+    <div class="article-style">
+      <p>A shift is underway in high performance computing (HPC) towards heterogeneous parallel architectures that emphasize medium and fine grain thread parallelism. Many scientific computing algorithms, including simple finite-differencing methods, have already been mapped to heterogeneous architectures with order-of-magnitude gains in performance as a result.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/scalable_shock_capturing/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/CLUSTER.2015.110" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+  </div>
+  
+
+</div>
+
+    
+  
+
+  
+  
+  
+
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="experience" class="home-section wg-experience  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Experience</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+<div class="col-12 col-lg-8">
+  
+
+  
+  
+
+  
+  
+  <div class="row experience">
+    
+    <div class="col-auto text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col ">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <div class="m-2">
+        <span class="badge badge-pill border exp-fill">&nbsp;</span>
+      </div>
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    
+    <div class="col py-2">
+      <div class="card">
+        <div class="card-body">
+
+              <div class="section-subheading card-title exp-title text-muted my-0">PhD Candidate</div>
+              <div class="section-subheading card-title exp-company text-muted my-0">Michigan State University</div>
+              <div class="text-muted exp-meta">
+                Jun 1018 –
+                
+                  Present
+                
+                
+                  <span class="middot-divider"></span>
+                  <span>Michigan</span>
+                
+              </div>
+
+          <div class="card-text"><p>Research:</p>
+<ul>
+<li>Active Galactic Nuclei Feedback Models</li>
+<li>Magnetic Fields in Galaxy Clusters</li>
+<li>Magnetohydrodynamic Turbulence</li>
+<li>Performance Portable Astrophysics Codes</li>
+</ul>
+<p>Teaching:</p>
+<ul>
+<li>Teaching Assistant for Introduction to Astronomy</li>
+<li>Teaching Assistant for Parallel Computing</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row experience">
+    
+    <div class="col-auto text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <div class="m-2">
+        <span class="badge badge-pill border exp-fill">&nbsp;</span>
+      </div>
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    
+    <div class="col py-2">
+      <div class="card">
+        <div class="card-body">
+
+              <div class="section-subheading card-title exp-title text-muted my-0">Graduate Student Researcher</div>
+              <div class="section-subheading card-title exp-company text-muted my-0">Sandia National Laboratories</div>
+              <div class="text-muted exp-meta">
+                Jun 10112 –
+                
+                  Present
+                
+                
+                  <span class="middot-divider"></span>
+                  <span>New Mexico</span>
+                
+              </div>
+
+          <div class="card-text"><p>Research:</p>
+<ul>
+<li>Robust schemes for relativistic hydrodynamics</li>
+<li>IMEX methods for relativistic two-fluid electrodynamics</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row experience">
+    
+    <div class="col-auto text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <div class="m-2">
+        <span class="badge badge-pill border ">&nbsp;</span>
+      </div>
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    
+    <div class="col py-2">
+      <div class="card">
+        <div class="card-body">
+
+              <div class="section-subheading card-title exp-title text-muted my-0">Undergraduate Student Researcher</div>
+              <div class="section-subheading card-title exp-company text-muted my-0">Los Alamos National Laboratory</div>
+              <div class="text-muted exp-meta">
+                Jun 15154 –
+                
+                  Jun 1018
+                
+                
+                  <span class="middot-divider"></span>
+                  <span>New Mexico</span>
+                
+              </div>
+
+          <div class="card-text"><p>Research:</p>
+<ul>
+<li>Radiation hydrodynamics via ray tracing techniques for meshless hydrodynamics</li>
+<li>Pop III Star Formation</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row experience">
+    
+    <div class="col-auto text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <div class="m-2">
+        <span class="badge badge-pill border ">&nbsp;</span>
+      </div>
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    
+    <div class="col py-2">
+      <div class="card">
+        <div class="card-body">
+
+              <div class="section-subheading card-title exp-title text-muted my-0">Undergraduate Research Assistant</div>
+              <div class="section-subheading card-title exp-company text-muted my-0">Department of Physics, Brigham Young University</div>
+              <div class="text-muted exp-meta">
+                Jun 10112 –
+                
+                  Jun 1014
+                
+                
+                  <span class="middot-divider"></span>
+                  <span>Utah</span>
+                
+              </div>
+
+          <div class="card-text"><p>Research:</p>
+<ul>
+<li>Relativistic magnetohydrodynamics on GPUs</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row experience">
+    
+    <div class="col-auto text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <div class="m-2">
+        <span class="badge badge-pill border ">&nbsp;</span>
+      </div>
+      <div class="row h-50">
+        <div class="col ">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    
+    <div class="col py-2">
+      <div class="card">
+        <div class="card-body">
+
+              <div class="section-subheading card-title exp-title text-muted my-0">Undergraduate Project Assistant</div>
+              <div class="section-subheading card-title exp-company text-muted my-0">Department of Mathematics, Brigham Young University</div>
+              <div class="text-muted exp-meta">
+                Jun 1012 –
+                
+                  Jun 1014
+                
+                
+                  <span class="middot-divider"></span>
+                  <span>Utah</span>
+                
+              </div>
+
+          <div class="card-text"><p>Teaching:</p>
+<ul>
+<li>Helped write lab manuals on numerical methods</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="contact" class="home-section wg-contact  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Contact</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-12 col-lg-8">
+  
+
+  
+
+  <ul class="fa-ul">
+
+    
+    <li>
+      <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
+      <span id="person-email"><a href="mailto:glinesfo@msu.edu">glinesfo@msu.edu</a></span>
+    </li>
+    
+
+    
+
+    
+    
+      
+      <li>
+        <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
+        <span id="person-address">567 Wilson Rd, East Lansing, MI 48824</span>
+      </li>
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+  </ul>
+
+  
+
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.8626d678bd286b6b2b19961df891e128.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

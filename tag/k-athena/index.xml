@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>K-Athena | Forrest Glines</title>
+    <link>https://forrestglines.github.io/tag/k-athena/</link>
+      <atom:link href="https://forrestglines.github.io/tag/k-athena/index.xml" rel="self" type="application/rss+xml" />
+    <description>K-Athena</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 15 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://forrestglines.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>K-Athena</title>
+      <link>https://forrestglines.github.io/tag/k-athena/</link>
+    </image>
+    
+    <item>
+      <title>Decaying Magnetized Turbulence in the Taylor-Green Vortex</title>
+      <link>https://forrestglines.github.io/project/taylor_green/</link>
+      <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://forrestglines.github.io/project/taylor_green/</guid>
+      <description>&lt;p&gt;To investigate the development of turbulence in intermittently driven plasmas
+such as the intracluster medium, we used our newly developed K-Athena code to
+run a series of simulations of the magnetized Taylor-Green vortex. The
+turbulence that arises from the unsteady flow of the magnetized Taylor-Green
+vortex models the turbulence that develops from large scale infrequent events
+such as galaxy cluster mergers disturbing the intracluster medium. In our
+paper, we examine the magnitude and the spectra of the kinetic, magnetic, and
+thermal energy reservoirs within the plasma. Additionally, we apply an energy
+transfer analysis to study the movement of energy between different length
+scale and between different reservoirs&lt;/p&gt;
+&lt;p&gt;Our full setup, explanation, and analysis can be found in
+&lt;a href=&#34;https://doi.org/10.1103/PhysRevE.103.043203&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Physical Review E&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>K-Athena</title>
+      <link>https://forrestglines.github.io/project/kathena/</link>
+      <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://forrestglines.github.io/project/kathena/</guid>
+      <description>&lt;p&gt;K-Athena is a partial conversion of Athena++, using Kokkos for performance
+portability, meaning that it runs efficiently on CPUs and GPUs. The code is a
+precursor to the Parthenon and AthenaPK projects, implementing only uniform
+grids efficiently when running on GPUs. However, the code was a valuable proof
+of concept for a performance-portable magnetohydrodynamics code, allowing
+future exascale simulations to be unconstrained by niche architectures.&lt;/p&gt;
+&lt;p&gt;K-Athena is publicly available on &lt;a href=&#34;https://gitlab.com/pgrete/kathena&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gitlab&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As part of the development effort, we quantified the performance portability of
+code using roofline models. We constructed roofline models on each
+of the CPU and GPU devices on which we tested K-Athena. Roofline models allow
+estimations of the theoretical peak throughput of a code as limited by its
+arithmetic intensity (the number of operations execute per byte loaded) and by
+the bandwidths and computational throughputs of the hardware. By comparing the
+actual efficiency achieved to the theoretical efficiency for each architecture,
+we  obtain a performance efficiency for each machine that can be directly
+compared, even if the architectures are very different.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/kathena/gpu-roofline_hu92834981f023fb98b90699d135d89f40_39861_a79c16c2e18f5b6a2f4848f28ce0600a.png 400w,
+               /project/kathena/gpu-roofline_hu92834981f023fb98b90699d135d89f40_39861_2e734594ea9a9da13520ac229243a250.png 760w,
+               /project/kathena/gpu-roofline_hu92834981f023fb98b90699d135d89f40_39861_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://forrestglines.github.io/project/kathena/gpu-roofline_hu92834981f023fb98b90699d135d89f40_39861_a79c16c2e18f5b6a2f4848f28ce0600a.png&#34;
+               width=&#34;525&#34;
+               height=&#34;390&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+Roofline model of an NVIDIA Tesla V100 with the arithmetic intensity of
+K-Athena, showing performance in TFLOPS versus arithmetic intensity in floating
+point operations execute per byte loaded and written. Throughputs appear as
+horizontal ceilings, bandwidths of the different memory spaces of the hardware
+appear as diagonal ceilings, and arithmetic intensities of the code appear as
+vertical lines. The intersect of an arithmetic intensity with a bandwidth or
+throughput ceiling show the theoretical throughput ceiling imposed by that
+bandwidth or throughput. We generated rooflines for all architectures on which
+we profiled K-Athena.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/kathena/featured_hua9c4d5f5e0b6839025ea1e284575d3fa_28317_10cb5284770cd5a295b10fdf08cc8499.png 400w,
+               /project/kathena/featured_hua9c4d5f5e0b6839025ea1e284575d3fa_28317_8a68f3c103e2bccb94be92590157db78.png 760w,
+               /project/kathena/featured_hua9c4d5f5e0b6839025ea1e284575d3fa_28317_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://forrestglines.github.io/project/kathena/featured_hua9c4d5f5e0b6839025ea1e284575d3fa_28317_10cb5284770cd5a295b10fdf08cc8499.png&#34;
+               width=&#34;520&#34;
+               height=&#34;409&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+Efficiency achieved on each architecture on which we profiled K-Athena, showing
+the percentage performance achieved out of the theoretical performance as
+limited by the DRAM and L1 memory for each architecture. By taking the harmonic
+mean of these efficiencies we arrive at a performance portability measure. The
+implementation of K-Athena (and similar MHD codes) is typically limited by the
+DRAM bandwidth, leading to a performance portability of 62.8%. Less efficiency
+utilization of the L1 cache on almost all architectures leads to a 7.7%
+performance portability with respect to the L1 cache.&lt;/p&gt;
+&lt;p&gt;Our full method description and performance analysis can be found in
+&lt;a href=&#34;https://doi.org/10.1109/TPDS.2020.3010016&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE Transactions on Parallel and Distributed Systems&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

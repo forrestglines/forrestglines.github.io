@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MHD Turbulence | Forrest Glines</title>
+    <link>https://forrestglines.github.io/tag/mhd-turbulence/</link>
+      <atom:link href="https://forrestglines.github.io/tag/mhd-turbulence/index.xml" rel="self" type="application/rss+xml" />
+    <description>MHD Turbulence</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 15 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://forrestglines.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>MHD Turbulence</title>
+      <link>https://forrestglines.github.io/tag/mhd-turbulence/</link>
+    </image>
+    
+    <item>
+      <title>Decaying Magnetized Turbulence in the Taylor-Green Vortex</title>
+      <link>https://forrestglines.github.io/project/taylor_green/</link>
+      <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://forrestglines.github.io/project/taylor_green/</guid>
+      <description>&lt;p&gt;To investigate the development of turbulence in intermittently driven plasmas
+such as the intracluster medium, we used our newly developed K-Athena code to
+run a series of simulations of the magnetized Taylor-Green vortex. The
+turbulence that arises from the unsteady flow of the magnetized Taylor-Green
+vortex models the turbulence that develops from large scale infrequent events
+such as galaxy cluster mergers disturbing the intracluster medium. In our
+paper, we examine the magnitude and the spectra of the kinetic, magnetic, and
+thermal energy reservoirs within the plasma. Additionally, we apply an energy
+transfer analysis to study the movement of energy between different length
+scale and between different reservoirs&lt;/p&gt;
+&lt;p&gt;Our full setup, explanation, and analysis can be found in
+&lt;a href=&#34;https://doi.org/10.1103/PhysRevE.103.043203&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Physical Review E&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Magnetic Tower AGN Feedback within Magnetized Galaxy Clusters</title>
+      <link>https://forrestglines.github.io/project/magnetic_agn/</link>
+      <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://forrestglines.github.io/project/magnetic_agn/</guid>
+      <description>&lt;p&gt;My current focus is the development of next-generation simulations of
+magnetized galaxy clusters with magnetized active galactic nuclei (AGN)
+feedback, done in tandem with development of AthenaPK and Parthenon. High
+computational efficiency on CPUs and GPUs enabled by the Parthenon adaptive
+mesh refinement framework will allow higher resolution and higher fidelity
+simulations than previously possible.&lt;/p&gt;
+&lt;p&gt;The simulations use realistic gravitational and entropy profiles of galaxy
+cluster with a tabulated cooling function. Feedback from AGN is triggered by
+cold gas accreted into the AGN and is deposited into the intracluster medium
+via thermal heating, precessing kinetic jets, and a magnetic tower.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
