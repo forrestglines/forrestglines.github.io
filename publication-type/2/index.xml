@@ -7,7 +7,7 @@
     <description>2</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 13 Apr 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://forrestglines.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://forrestglines.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>2</title>
       <link>https://forrestglines.github.io/publication-type/2/</link>
     </image>
@@ -105,7 +105,7 @@ metric of 62.8 percent. Finally, we present the implementation strategies used
 and the challenges encountered in maximizing performance. This will provide
 other research groups with a straightforward approach to prepare their own
 codes for the exascale era. K-ATHENA is available at
-&lt;a href=&#34;https://gitlab.com/pgrete/kathena&#34;&gt;https://gitlab.com/pgrete/kathena&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://gitlab.com/pgrete/kathena&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://gitlab.com/pgrete/kathena&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
