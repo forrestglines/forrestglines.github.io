@@ -33,79 +33,23 @@
     </item>
     
     <item>
-      <title>AGN Feedback Heating Kernels</title>
-      <link>https://forrestglines.github.io/project/thermal_agn/</link>
-      <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://forrestglines.github.io/project/thermal_agn/</guid>
-      <description>&lt;p&gt;Using hydrodynamic simulations of idealized galaxy clusters with Enzo, we investigated whether purely thermal AGN feedback models could replicate the cool-core clusters produced by kinetic jet AGN feedback models. Such a purely thermal feedback model would serve as a theoretical approximation of energy deposition by AGN jets. Although we found no such purely thermal heating kernel that maintained a cool-core cluster, we did develop a model between the radial deposition of energy by the AGN, the entropy profile of the cluster, and the stability of the cluster.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-schematic-of-heating-kernel-outcomes&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Schematic of Heating kernel outcomes&#34; srcset=&#34;
-               /project/thermal_agn/hc_schematic_hu803c0ee018b16d642488e439821b3059_112959_0cc135154376500f1e8cface513c469b.png 400w,
-               /project/thermal_agn/hc_schematic_hu803c0ee018b16d642488e439821b3059_112959_c8ccd028f7420643df8dd5f7a3d8395b.png 760w,
-               /project/thermal_agn/hc_schematic_hu803c0ee018b16d642488e439821b3059_112959_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://forrestglines.github.io/project/thermal_agn/hc_schematic_hu803c0ee018b16d642488e439821b3059_112959_0cc135154376500f1e8cface513c469b.png&#34;
-               width=&#34;760&#34;
-               height=&#34;504&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Schematic of Heating kernel outcomes
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;We identified three potential outcomes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Centrally underheating kernels, which lead to early cooling catastrophes.&lt;/li&gt;
-&lt;li&gt;Centrally overheating kernels, which lead to unphysically elevated central entropies but ultimately stable clusters.&lt;/li&gt;
-&lt;li&gt;Centrally intermediately heating kernels, which balance a reasonable central entropy
-These outcomes were borne out in the simulations depending on how centrally concentrated the AGN heating was.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-cooling-rate-and-entropy-mass-densities-of-three-representative-simulations&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Cooling rate and entropy mass densities of three representative simulations&#34; srcset=&#34;
-               /project/thermal_agn/featured_hue16c1ad32040cefc5bf399784ce178ab_336799_174fb7e6c28e1c3abdfdd56422444683.png 400w,
-               /project/thermal_agn/featured_hue16c1ad32040cefc5bf399784ce178ab_336799_3b70943dffaa1c8c2277a86d561e5733.png 760w,
-               /project/thermal_agn/featured_hue16c1ad32040cefc5bf399784ce178ab_336799_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://forrestglines.github.io/project/thermal_agn/featured_hue16c1ad32040cefc5bf399784ce178ab_336799_174fb7e6c28e1c3abdfdd56422444683.png&#34;
-               width=&#34;760&#34;
-               height=&#34;540&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Cooling rate and entropy mass densities of three representative simulations
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;Full explanations and descriptions are available in our paper &lt;a href=&#34;https://doi.org/10.3847/1538-4357/abb08c&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;in the Astrophysical Journal&lt;/a&gt;&lt;/p&gt;
+      <title>Exascale simulations of magnetized AGN jets on Frontier</title>
+      <link>https://forrestglines.github.io/project/incite_2023/</link>
+      <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://forrestglines.github.io/project/incite_2023/</guid>
+      <description>&lt;p&gt;Myself and a group of collaborators  were awarded an &lt;a href=&#34;https://www.anl.gov/article/incite-program-awards-supercomputing-time-to-56-projects-to-accelerate-science-and-engineering&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;INCITE 2023
+Award&lt;/a&gt;
+to perform exascale simulations of galaxy clusters with magnetized jets powered
+by a central active galactic nuclei (AGN). Galaxy clusters, as the largest
+gravitationally bound structures, provide a unique probe of large scale
+structure in the universe. The magnetized AGN jets play a key role in the
+dynamics of baryonic matter in galaxy clusters and thus observational
+signatures of clusters.&lt;/p&gt;
+&lt;p&gt;These simulations are enabled by
+&lt;a href=&#34;https://github.com/parthenon-hpc-lab/athenapk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AthenaPK&lt;/a&gt;, our exascale capable
+performance portable astrophysics code. I am currently working on optimizing
+these AthenaPK simulations on the exascale supercomputer Frontier.&lt;/p&gt;
+&lt;p&gt;Read MSU&amp;rsquo;s reporting on the award &lt;a href=&#34;https://www.egr.msu.edu/news/2023/03/22/msu-led-research-team-study-galaxies-never&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -126,26 +70,6 @@ future Intel GPUs. AthenaPK uses the robust solvers from Athena++ within the
 Parthenon framework to enable future exascale astrophysical simulations.&lt;/p&gt;
 &lt;p&gt;Parthenon is publicly available on &lt;a href=&#34;https://github.com/lanl/parthenon&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;AthenaPK is publicly available on &lt;a href=&#34;https://gitlab.com/theias/hpc/jmstone/athena-parthenon/athenapk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gitlab&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Decaying Magnetized Turbulence in the Taylor-Green Vortex</title>
-      <link>https://forrestglines.github.io/project/taylor_green/</link>
-      <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://forrestglines.github.io/project/taylor_green/</guid>
-      <description>&lt;p&gt;To investigate the development of turbulence in intermittently driven plasmas
-such as the intracluster medium, we used our newly developed K-Athena code to
-run a series of simulations of the magnetized Taylor-Green vortex. The
-turbulence that arises from the unsteady flow of the magnetized Taylor-Green
-vortex models the turbulence that develops from large scale infrequent events
-such as galaxy cluster mergers disturbing the intracluster medium. In our
-paper, we examine the magnitude and the spectra of the kinetic, magnetic, and
-thermal energy reservoirs within the plasma. Additionally, we apply an energy
-transfer analysis to study the movement of energy between different length
-scale and between different reservoirs&lt;/p&gt;
-&lt;p&gt;Our full setup, explanation, and analysis can be found in
-&lt;a href=&#34;https://doi.org/10.1103/PhysRevE.103.043203&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Physical Review E&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -249,20 +173,22 @@ performance portability with respect to the L1 cache.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Magnetic Tower AGN Feedback within Magnetized Galaxy Clusters</title>
-      <link>https://forrestglines.github.io/project/magnetic_agn/</link>
+      <title>Magnetized Turbulence in the Taylor-Green Vortex</title>
+      <link>https://forrestglines.github.io/project/taylor_green/</link>
       <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://forrestglines.github.io/project/magnetic_agn/</guid>
-      <description>&lt;p&gt;My current focus is the development of next-generation simulations of
-magnetized galaxy clusters with magnetized active galactic nuclei (AGN)
-feedback, done in tandem with development of AthenaPK and Parthenon. High
-computational efficiency on CPUs and GPUs enabled by the Parthenon adaptive
-mesh refinement framework will allow higher resolution and higher fidelity
-simulations than previously possible.&lt;/p&gt;
-&lt;p&gt;The simulations use realistic gravitational and entropy profiles of galaxy
-cluster with a tabulated cooling function. Feedback from AGN is triggered by
-cold gas accreted into the AGN and is deposited into the intracluster medium
-via thermal heating, precessing kinetic jets, and a magnetic tower.&lt;/p&gt;
+      <guid>https://forrestglines.github.io/project/taylor_green/</guid>
+      <description>&lt;p&gt;To investigate the development of turbulence in intermittently driven plasmas
+such as the intracluster medium, we used our newly developed K-Athena code to
+run a series of simulations of the magnetized Taylor-Green vortex. The
+turbulence that arises from the unsteady flow of the magnetized Taylor-Green
+vortex models the turbulence that develops from large scale infrequent events
+such as galaxy cluster mergers disturbing the intracluster medium. In our
+paper, we examine the magnitude and the spectra of the kinetic, magnetic, and
+thermal energy reservoirs within the plasma. Additionally, we apply an energy
+transfer analysis to study the movement of energy between different length
+scale and between different reservoirs&lt;/p&gt;
+&lt;p&gt;Our full setup, explanation, and analysis can be found in
+&lt;a href=&#34;https://doi.org/10.1103/PhysRevE.103.043203&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Physical Review E&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

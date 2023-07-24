@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exascale | Forrest Glines</title>
+    <link>https://forrestglines.github.io/tag/exascale/</link>
+      <atom:link href="https://forrestglines.github.io/tag/exascale/index.xml" rel="self" type="application/rss+xml" />
+    <description>Exascale</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 15 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://forrestglines.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Exascale</title>
+      <link>https://forrestglines.github.io/tag/exascale/</link>
+    </image>
+    
+    <item>
+      <title>Exascale simulations of magnetized AGN jets on Frontier</title>
+      <link>https://forrestglines.github.io/project/incite_2023/</link>
+      <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://forrestglines.github.io/project/incite_2023/</guid>
+      <description>&lt;p&gt;Myself and a group of collaborators  were awarded an &lt;a href=&#34;https://www.anl.gov/article/incite-program-awards-supercomputing-time-to-56-projects-to-accelerate-science-and-engineering&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;INCITE 2023
+Award&lt;/a&gt;
+to perform exascale simulations of galaxy clusters with magnetized jets powered
+by a central active galactic nuclei (AGN). Galaxy clusters, as the largest
+gravitationally bound structures, provide a unique probe of large scale
+structure in the universe. The magnetized AGN jets play a key role in the
+dynamics of baryonic matter in galaxy clusters and thus observational
+signatures of clusters.&lt;/p&gt;
+&lt;p&gt;These simulations are enabled by
+&lt;a href=&#34;https://github.com/parthenon-hpc-lab/athenapk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AthenaPK&lt;/a&gt;, our exascale capable
+performance portable astrophysics code. I am currently working on optimizing
+these AthenaPK simulations on the exascale supercomputer Frontier.&lt;/p&gt;
+&lt;p&gt;Read MSU&amp;rsquo;s reporting on the award &lt;a href=&#34;https://www.egr.msu.edu/news/2023/03/22/msu-led-research-team-study-galaxies-never&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
